@@ -7,6 +7,7 @@
 			background: url(../images/manhattan-banner.jpg) no-repeat top center;
 			background-size: cover;
 			background-attachment: fixed;
+			overflow: hidden;
 
 			.logo {
 			  position: absolute;
@@ -19,6 +20,13 @@
 			  left: 41%;
 			  font-style: italic;
 			  font-family: cursive;
+			}
+			p {
+			width: 444px;
+		  height: 733px;
+		  position: absolute;
+		  top: 72%;
+		  right: 0;
 			}
 		}
 
