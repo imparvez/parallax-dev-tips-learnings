@@ -4,6 +4,17 @@
   background: url(../images/manhattan-banner.jpg) no-repeat top center;
   background-size: cover;
   background-attachment: fixed; }
+  .container .wrapper .bg-box .logo {
+    position: absolute;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    top: 50%;
+    left: 41%;
+    font-style: italic;
+    font-family: cursive; }
 .container .wrapper .content h2 {
   color: #ccc;
   font-family: "Open sans", sans-serif;
