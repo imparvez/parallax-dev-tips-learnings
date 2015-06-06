@@ -1,7 +1,12 @@
 .container {
 	.wrapper {
-		width: 75%;
-		margin: 0 auto;
+
+		.bg-box {
+			position: relative;
+			height: 600px;
+			background: url(../images/manhattan-banner.jpg) no-repeat top center;
+			background-size: cover;
+		}
 
 		.content {
 			h2 {
