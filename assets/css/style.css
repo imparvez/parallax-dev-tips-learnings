@@ -6,8 +6,9 @@
   background-attachment: fixed;
   overflow: hidden; }
   .container .wrapper .bg-box .logo {
+    margin-top: -50px;
     position: absolute;
-    height: 100px;
+    height: 63px;
     text-align: center;
     text-decoration: none;
     color: #fff;
@@ -21,7 +22,12 @@
     height: 733px;
     position: absolute;
     top: 72%;
-    right: 0; }
+    right: 0;
+    font-size: 16px;
+    text-align: center;
+    text-transform: lowercase;
+    font-family: cursive;
+    font-weight: bold; }
 .container .wrapper .content h2 {
   color: #ccc;
   font-family: "Open sans", sans-serif;
