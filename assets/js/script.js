@@ -8,6 +8,6 @@ $(window).scroll(function(){
 	});
 
 	$('.descriptive-text p').css({
-		'transform' : 'translate(0px, -'+ wScroll /10 +'%)'
+		'transform' : 'translate(0px, -'+ wScroll /20 +'%)'
 	});
 });
