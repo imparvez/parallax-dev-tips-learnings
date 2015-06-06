@@ -1,0 +1,22 @@
+.container {
+	.wrapper {
+		width: 75%;
+		margin: 0 auto;
+
+		.content {
+			h2 {
+			  color: #ccc;
+			  font-family: "Open sans", sans-serif;
+			  font-weight: bolder;
+			  font-size: 40px;
+				text-align: center;
+			  text-transform: capitalize;
+			}
+			p {
+			  font-family: "Open sans", sans-serif;
+				text-align: center;
+			  text-transform: capitalize;
+			}
+		}
+	}
+}
