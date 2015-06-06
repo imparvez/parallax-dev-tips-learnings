@@ -2,7 +2,8 @@
   position: relative;
   height: 600px;
   background: url(../images/manhattan-banner.jpg) no-repeat top center;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
 .container .wrapper .content h2 {
   color: #ccc;
   font-family: "Open sans", sans-serif;
