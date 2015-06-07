@@ -52,5 +52,10 @@
     transform: translate(0px); }
   .container .wrapper .content .clothes-pics .img-row .columns.four img {
     width: 100%; }
+.container .wrapper .content .large-window {
+  height: 400px;
+  background: url(../images/model1.jpeg) no-repeat;
+  background-position: top center;
+  background-attachment: fixed; }
 
 /*# sourceMappingURL=style.css.map */
