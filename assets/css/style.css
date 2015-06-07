@@ -42,7 +42,8 @@
 .container .wrapper .content .clothes-pics .img-row .columns.four {
   display: inline-block;
   width: 400px;
-  margin-right: 1px; }
+  margin-right: 1px;
+  position: relative; }
   .container .wrapper .content .clothes-pics .img-row .columns.four img {
     width: 100%; }
 
