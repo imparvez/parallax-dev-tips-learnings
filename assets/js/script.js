@@ -15,9 +15,14 @@ $(window).scroll(function(){
 	//If wScroll is more than the top offset of cloth-pics, perform the below action
 	if(wScroll > $('.clothes-pics').offset().top) {
 		// console.log('hihih');
-		$('.clothes-pics figure').each(function(){
-			$('.clothes-pics figure').addClass('.is-showing');
+		$('.clothes-pics figure').each(function(i){
+			// $('.clothes-pics figure').addClass('is-showing');
 			//is-showing is coded in style.scss
+			/*SO NOW OUR CLASS IS GETTING APPENDED, Lets make it 
+			implement on each figure element using iterator i.e i*/
+			setTimeout(function() {
+				$('.clothes-pics figure').eq(i).addClass('is-showing');
+			}, 150 * (i+1));
 		});
 	}
 });

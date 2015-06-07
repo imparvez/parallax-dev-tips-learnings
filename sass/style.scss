@@ -56,11 +56,19 @@
 			.clothes-pics {
 				.img-row {
 					.columns.four {
-						  display: inline-block;
-						  width: 400px;
-						  margin-right: 1px;
-						  position: relative;
-						  
+					  display: inline-block;
+					  width: 400px;
+					  margin-right: 1px;
+					  position: relative;
+					  opacity: 0;
+					  transform: translate(20px);
+					  transition: all 0.3s ease-in-out;
+
+					  &.is-showing {
+					  	opacity: 1;
+					  	transform: translate(0px);
+					  }
+
 						img {
 							width: 100%;
 						}
