@@ -13,8 +13,9 @@ $(window).scroll(function(){
 
 	//Calculating when the scrollTop is more than cloth-pics
 	//If wScroll is more than the top offset of cloth-pics, perform the below action
-	if(wScroll > $('.clothes-pics').offset().top) {
+	if(wScroll > $('.clothes-pics').offset().top - ($(window).height() / 1.2)) {
 		// console.log('hihih');
+		console.log(wScroll > $('.clothes-pics').offset().top - ($(window).height() / 1.2));
 		$('.clothes-pics figure').each(function(i){
 			// $('.clothes-pics figure').addClass('is-showing');
 			//is-showing is coded in style.scss
