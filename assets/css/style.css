@@ -39,5 +39,11 @@
   font-family: "Open sans", sans-serif;
   text-align: center;
   text-transform: capitalize; }
+.container .wrapper .content .clothes-pics .img-row .columns.four {
+  display: inline-block;
+  width: 400px;
+  margin-right: 1px; }
+  .container .wrapper .content .clothes-pics .img-row .columns.four img {
+    width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

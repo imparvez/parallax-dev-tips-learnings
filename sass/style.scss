@@ -50,6 +50,19 @@
 				text-align: center;
 			  text-transform: capitalize;
 			}
+
+			.clothes-pics {
+				.img-row {
+					.columns.four {
+						  display: inline-block;
+						  width: 400px;
+						  margin-right: 1px;
+						img {
+							width: 100%;
+						}
+					}
+				}
+			}
 		}
 	}
 }
