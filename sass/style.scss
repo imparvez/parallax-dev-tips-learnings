@@ -78,10 +78,13 @@
 
 			//Periscope
 			.large-window {
-				height: 400px;
+				height: 640px;
 				background: url(../images/model1.jpeg) no-repeat;
 				background-position: top center;
 				background-attachment: fixed;
+				-webkit-border-radius: 50%;
+				border-radius: 50%;
+				margin-top: 100px;
 			}
 		}
 	}

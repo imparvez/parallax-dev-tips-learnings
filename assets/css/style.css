@@ -53,9 +53,12 @@
   .container .wrapper .content .clothes-pics .img-row .columns.four img {
     width: 100%; }
 .container .wrapper .content .large-window {
-  height: 400px;
+  height: 640px;
   background: url(../images/model1.jpeg) no-repeat;
   background-position: top center;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin-top: 100px; }
 
 /*# sourceMappingURL=style.css.map */
